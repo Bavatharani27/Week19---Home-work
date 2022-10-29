@@ -1,0 +1,321 @@
+1st Turn of User1:  6
+2nd Turn of User1:  1
+1st Turn of User2:  4
+2nd Turn of User2:  4
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * U2 * * 
+
+* * * * * * 
+
+U1 * * * * * 
+
+[6, 1]
+[4, 4]
+Score of User1 0
+Score of User2 0
+1st Turn of User1:  4
+2nd Turn of User1:  4
+1st Turn of User2:  3
+2nd Turn of User2:  3
+* * * * * * 
+
+* * * * * * 
+
+* * U2 * * * 
+
+* * * U1 * * 
+
+* * * * * * 
+
+* * * * * * 
+
+[4, 4]
+[3, 3]
+Score of User1 1
+Score of User2 0
+1st Turn of User1:  2
+2nd Turn of User1:  6
+1st Turn of User2:  1
+2nd Turn of User2:  1
+U2 * * * * * 
+
+* * * * * U1 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+[2, 6]
+[1, 1]
+Score of User1 1
+Score of User2 0
+1st Turn of User1:  5
+2nd Turn of User1:  2
+1st Turn of User2:  6
+2nd Turn of User2:  1
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* U1 * * * * 
+
+U2 * * * * * 
+
+[5, 2]
+[6, 1]
+Score of User1 2
+Score of User2 0
+1st Turn of User1:  6
+2nd Turn of User1:  6
+1st Turn of User2:  5
+2nd Turn of User2:  4
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * U2 * * 
+
+* * * * * U1 
+
+[6, 6]
+[5, 4]
+Score of User1 2
+Score of User2 0
+1st Turn of User1:  3
+2nd Turn of User1:  4
+1st Turn of User2:  1
+2nd Turn of User2:  5
+* * * * U2 * 
+
+* * * * * * 
+
+* * * U1 * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+[3, 4]
+[1, 5]
+Score of User1 2
+Score of User2 0
+1st Turn of User1:  6
+2nd Turn of User1:  5
+1st Turn of User2:  5
+2nd Turn of User2:  5
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * U2 * 
+
+* * * * U1 * 
+
+[6, 5]
+[5, 5]
+Score of User1 3
+Score of User2 0
+1st Turn of User1:  3
+2nd Turn of User1:  5
+1st Turn of User2:  2
+2nd Turn of User2:  5
+* * * * * * 
+
+* * * * U2 * 
+
+* * * * U1 * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+[3, 5]
+[2, 5]
+Score of User1 4
+Score of User2 0
+1st Turn of User1:  5
+2nd Turn of User1:  6
+1st Turn of User2:  3
+2nd Turn of User2:  5
+* * * * * * 
+
+* * * * * * 
+
+* * * * U2 * 
+
+* * * * * * 
+
+* * * * * U1 
+
+* * * * * * 
+
+[5, 6]
+[3, 5]
+Score of User1 4
+Score of User2 0
+1st Turn of User1:  3
+2nd Turn of User1:  3
+1st Turn of User2:  1
+2nd Turn of User2:  5
+* * * * U2 * 
+
+* * * * * * 
+
+* * U1 * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+[3, 3]
+[1, 5]
+Score of User1 4
+Score of User2 0
+1st Turn of User1:  5
+2nd Turn of User1:  5
+1st Turn of User2:  6
+2nd Turn of User2:  1
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * U1 * 
+
+U2 * * * * * 
+
+[5, 5]
+[6, 1]
+Score of User1 4
+Score of User2 0
+1st Turn of User1:  5
+2nd Turn of User1:  2
+1st Turn of User2:  3
+2nd Turn of User2:  5
+* * * * * * 
+
+* * * * * * 
+
+* * * * U2 * 
+
+* * * * * * 
+
+* U1 * * * * 
+
+* * * * * * 
+
+[5, 2]
+[3, 5]
+Score of User1 4
+Score of User2 0
+1st Turn of User1:  3
+2nd Turn of User1:  3
+1st Turn of User2:  5
+2nd Turn of User2:  5
+* * * * * * 
+
+* * * * * * 
+
+* * U1 * * * 
+
+* * * * * * 
+
+* * * * U2 * 
+
+* * * * * * 
+
+[3, 3]
+[5, 5]
+Score of User1 4
+Score of User2 0
+1st Turn of User1:  2
+2nd Turn of User1:  2
+1st Turn of User2:  2
+2nd Turn of User2:  6
+* * * * * * 
+
+* U1 * * * U2 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+[2, 2]
+[2, 6]
+Score of User1 4
+Score of User2 0
+1st Turn of User1:  5
+2nd Turn of User1:  2
+1st Turn of User2:  2
+2nd Turn of User2:  3
+* * * * * * 
+
+* * U2 * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* U1 * * * * 
+
+* * * * * * 
+
+[5, 2]
+[2, 3]
+Score of User1 4
+Score of User2 0
+1st Turn of User1:  5
+2nd Turn of User1:  4
+1st Turn of User2:  4
+2nd Turn of User2:  5
+* * * * * * 
+
+* * * * * * 
+
+* * * * * * 
+
+* * * * U2 * 
+
+* * * U1 * * 
+
+* * * * * * 
+
+[5, 4]
+[4, 5]
+Score of User1 5
+Score of User2 0
+Congrats! User1 won the match
