@@ -1,0 +1,57 @@
+import random
+row = 6          # Row value
+column = 6       # column value
+
+def spot_Identification(user1_Row, user1_Col, user2_Row, user2_Col):   #To identify the spot of the users
+    for i in range(1,row+1):
+        for j in range(1,column+1):
+            if(i == user1_Row and j == user1_Col and i == user2_Row and j == user2_Col):  #To check rows & cols of both the users for same spot
+                print("U1 U2 ", end='')
+            elif(i == user1_Row and j == user1_Col):      #To check rows & cols of user1 and print spot1
+                print("U1 ", end='')
+            elif(i == user2_Row and j == user2_Col):      #To check rows & cols of user2 and print spot2
+                print("U2 ", end='')
+            else:
+                print("* ", end='')      
+        print("\n")
+
+def score_Calculation():               #To calculate the scores of user1 and user2
+    score_Of_User1 = 0
+    score_Of_User2 = 0
+    turns = 1
+    while(turns > 0):
+        user1_Row = random.randint(1,6)                #Getting randowm row values of user1
+        print("1st Turn of User1: ", user1_Row)
+        user1_Col = random.randint(1,6)                #Getting randowm column values of user1
+        print("2nd Turn of User1: ", user1_Col)
+        user2_Row = random.randint(1,6)                #Getting randowm row values of user2
+        print("1st Turn of User2: ", user2_Row)
+        user2_Col = random.randint(1,6)                #Getting randowm column values of user2
+        print("2nd Turn of User2: ", user2_Col)
+
+        spot1 = []
+        spot1.extend([user1_Row,user1_Col])                 #Store row and column value of user1 in spot1
+        spot2 = []
+        spot2.extend([user2_Row,user2_Col])                  #Store row and column value of user2 in spot2
+        turns = turns + 1
+        spot_Identification(user1_Row, user1_Col, user2_Row, user2_Col)
+        print(spot1)
+        print(spot2)
+        if(abs(user1_Row - user2_Row) < 2):                                          #To check row value of user 1 and 2
+            if(abs(user1_Row - user2_Row) < 2 and abs(user1_Col - user2_Col) < 2):   #To find the spot diff between user1 and user2
+                if(user1_Row - user2_Row == 0 and user1_Col - user2_Col == 0):       #To check both users are in same spot
+                    score_Of_User2 = score_Of_User2 + 1                         #If yes 2nd user's score is incremented by 1
+                else:                                                                
+                    score_Of_User1 = score_Of_User1 + 1
+
+        print("Score of User1", score_Of_User1)     #To print the score of user1
+        print("Score of User2",score_Of_User2)      #To print the score of user2
+
+        if(score_Of_User1 == 5):                    #If score of user1 is equal to 5 then user1 won the match
+            print("Congrats! User1 won the match")
+        if(score_Of_User2 == 5):                    #If score of user2 is equal to 5 then user2 won the match
+            print("Congrats! User2 won the match")
+        if(score_Of_User1 == 5 or score_Of_User2 == 5):  #If score of user1 or user2 is equal to 5 then the loop will be terminated
+            break
+
+score_Calculation()
