@@ -1,0 +1,56 @@
+<html>
+    <title>Calculator</title>
+    <head>
+        <h1>Calculator</h1>
+        <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#btnAdd").click(function(e){
+                    var num1 = parseFloat($("#txtNum1").val());
+                    var num2 = parseFloat($("#txtNum2").val());
+                    var sum = num1 + num2;
+                    alert(sum);
+                });
+
+                $("#btnSub").click(function(e){
+                    var num1 = parseFloat($("#txtNum1").val());
+                    var num2 = parseFloat($("#txtNum2").val());
+                    var sub = num1 - num2;
+                    alert(sub);
+                });
+
+                $("#btnSqr").click(function(e){
+                    if($("#txtNum1").val() == '')
+                        alert("Enter number1");
+                    else{
+                        var num1 = parseFloat($("#txtNum1").val());
+                        var sqr = Math.pow(num1, 2);
+                        alert(sqr);
+                    }
+                });
+
+                $("#btnCub").click(function(e){
+                    if($("#txtNum1").val() == '')
+                        alert("Enter number1");
+                    else{
+                        var num1 = parseFloat($("#txtNum1").val());
+                        var cub = Math.pow(num1, 3);
+                        alert(cub);
+                    }
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <label>Enter 1st number</label>
+        <input id="txtNum1" type="text"></input><br>
+        <br>
+        <label>Enter 2nd number</label>
+        <input id="txtNum2" type="text"></input><br>
+        <br>
+        <button id="btnAdd">Add</button>
+        <button id="btnSub">Subtract</button>
+        <button id="btnSqr">Square</button>
+        <button id="btnCub">Cube</button>
+    </body>
+</html>
