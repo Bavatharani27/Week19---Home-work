@@ -1,0 +1,86 @@
+import mysql.connector
+
+mydb = mysql.connector.connect(host="localhost", user="root", password="Thilo@1727!", 
+    database= "covid_db")
+mycursor = mydb.cursor()
+# mycursor.execute("show tables")
+
+# for i in mycursor:
+#     print(i)
+
+# total = int(input("Enter the no of records you want to insert: "))
+# for deptId in range(1, total+1):                                                        #department insertion
+#     dept_Name = input("Enter Department Name: ")
+#     query = "Insert into tbl_department values({},'{}')".format(deptId, dept_Name)
+#     mycursor.execute(query)
+
+# mydb.commit()
+# print("records inserted successfully")
+
+# for countryId in range(1, total+1):                                                      #country insertion
+#     country_Name = input("Enter Country Name: ")
+#     query = "Insert into tbl_country values({},'{}')".format(countryId, country_Name)
+#     mycursor.execute(query)
+
+# mydb.commit()
+# print("records inserted successfully")
+
+
+# for stateId in range(1, total+1):                                                            #state insertion
+#     state_Name = input("Enter State Name: ")
+#     country_Id = int(input("Enter Country Id: "))
+#     query = "Insert into tbl_state values({},'{}', {})".format(stateId, state_Name, country_Id)
+#     mycursor.execute(query)
+
+# mydb.commit()
+# print("records inserted successfully")
+
+# for cityId in range(1, total+1):                               #city insertion
+#     city_Name = input("Enter City Name: ")
+#     state_Id = int(input("Enter State Id: "))
+#     country_Id = int(input("Enter Country Id: "))
+#     query = "Insert into tbl_city values({},'{}', {}, {})".format(cityId, city_Name, state_Id, country_Id)
+#     mycursor.execute(query)
+
+# mydb.commit()
+# print("records inserted successfully")
+
+
+# for patientId in range(1, total+1):                               #patient details insertion
+#     patient_Name = input("Enter Patient Name: ")
+#     address = input("Enter Address: ")
+#     cityId = int(input("Enter City Id: "))
+#     phone = input("Enter Phone No: ")
+#     query = "Insert into tbl_patient values({},'{}','{}', {}, '{}')".format(patientId, patient_Name, address, cityId, phone)
+#     mycursor.execute(query)
+
+# mydb.commit()
+# print("records inserted successfully")
+
+
+
+mycursor.execute("select * from tbl_patient")
+myresult = mycursor.fetchall()
+
+for i in myresult:
+    print(i)
+    
+    
+    
+    
+output:
+(1, 'Bavatharani', 'Reddiapatti', 2, '9087562312')
+(2, 'Rohith', 'Reddiapatti', 2, '7865431290')
+(3, 'Alagar', 'Gandhi nagar', 2, '8965239012')
+(4, 'Sorna ', 'Sounth street', 1, '6789234510')
+(5, 'Deepika', 'East Street', 1, '7890345612')
+(6, 'Sowmiya', 'KK nagar', 1, '9012896734')
+(7, 'Kathiresh', 'Ajish nagar', 2, '7899236612')
+(8, 'Vethabalan', 'Athipatti', 2, '9900231478')
+(9, 'Aravinth', 'T nagar', 1, '6689082317')
+(10, 'Maga vigna', 'SRT nagar', 1, '9978341290')
+(11, 'Ragav', 'West street', 2, '9988672310')
+(12, 'Sneka', 'KR Nagar', 1, '9087431123')
+(13, 'Sherif', 'South street', 1, '7865349012')
+(14, 'Akila', 'Gandhi nagar', 1, '7856349012')
+(15, 'Soundarya', 'South street', 2, '9078452367')
