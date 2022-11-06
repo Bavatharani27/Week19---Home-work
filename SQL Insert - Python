@@ -69,6 +69,90 @@ for i in myresult:
     
     
 output:
+Enter the no of records you want to insert: 2                           Country insertion
+Enter Country Name: India
+Enter Country Name: Canada
+
+Enter the no of records you want to insert: 2                           State insertion
+Enter State Name: Tamilnadu
+Enter Country Id 1
+Enter State Name: Karnataka
+Enter Country Id 1
+records inserted successfully
+
+Enter the no of records you want to insert: 2                          City insertion
+Enter City Name: Aarappalayam
+Enter State Id: 1
+Enter Country Id: 1
+Enter City Name: Aruppukottai
+Enter State Id: 1
+Enter Country Id: 1
+records inserted successfully
+
+
+Enter the no of records you want to insert: 15                        Patient insertion
+Enter Patient Name: Bavatharani
+Enter Address: Reddiapatti
+Enter City Id: 2
+Enter Phone No: 9087562312
+Enter Patient Name: Rohith
+Enter Address: Reddiapatti
+Enter City Id: 2
+Enter Phone No: 7865431290
+Enter Patient Name: Alagar
+Enter Address: Gandhi nagar
+Enter City Id: 2
+Enter Phone No: 8965239012
+Enter Patient Name: Sorna 
+Enter Address: Sounth street 
+Enter City Id: 1
+Enter Phone No: 6789234510
+Enter Patient Name: Deepika
+Enter Address: East Street
+Enter City Id: 1
+Enter Phone No: 7890345612
+Enter Patient Name: Sowmiya
+Enter Address: KK nagar
+Enter City Id: 1
+Enter Phone No: 9012896734
+Enter Patient Name: Kathiresh
+Enter Address: Ajish nagar
+Enter City Id: 2
+Enter Patient Name: Vethabalan
+Enter Address: Athipatti
+Enter City Id: 2
+Enter Phone No: 9900231478
+Enter Patient Name: Aravinth
+Enter Address: T nagar
+Enter City Id: 1
+Enter Phone No: 6689082317
+Enter Patient Name: Maga vigna
+Enter Address: SRT nagar
+Enter City Id: 1
+Enter Phone No: 9978341290
+Enter Patient Name: Ragav
+Enter Address: West street
+Enter City Id: 2
+Enter Phone No: 9988672310
+Enter Patient Name: Sneka
+Enter City Id: 1
+Enter Phone No: 9087431123
+Enter Patient Name: Sherif
+Enter Address: South street
+Enter City Id: 1
+Enter Phone No: 7865349012
+Enter Patient Name: Akila
+Enter Address: Gandhi nagar
+Enter City Id: 1
+Enter Phone No: 7856349012
+Enter Patient Name: Soundarya
+Enter Address: South street
+Enter City Id: 2
+Enter Phone No: 9078452367
+records inserted successfully
+
+
+
 (1, 'Bavatharani', 'Reddiapatti', 2, '9087562312')
 (2, 'Rohith', 'Reddiapatti', 2, '7865431290')
 (3, 'Alagar', 'Gandhi nagar', 2, '8965239012')
